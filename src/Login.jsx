@@ -9,19 +9,18 @@ function Login(){
     const[valid,setvalid]=useState(true);
 
     function handlepwd1change(event){
-      setpwd1(event.target.value);
-      
+      setpwd1(event.target.value); 
     }
 
     function handlepwd2change(event){
-               setpwd2(event.target.value);
+            setpwd2(event.target.value);
 
                 if(pwd1==event.target.value){
-            console.log("valid password");
+            // console.log("valid password");
             setvalid(true);
         }
         else{
-            console.log("invalid");
+            // console.log("invalid");
             setvalid(false)
         }
     }
@@ -62,3 +61,5 @@ function Login(){
 }
 
 export default Login;
+
+//npm install react-router-dom
