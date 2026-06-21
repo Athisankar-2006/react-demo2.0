@@ -1,0 +1,47 @@
+{
+    "posts":[
+     
+        {
+            "id":101,
+            "title":"my first post",
+            "content":"hello this is my first post",
+            "created_at":"2024-01-01"
+        },
+         {
+            "id":102,
+            "title":"A day in my life",
+            "content":"Today was a great day...",
+            "created_at":"2024-01-05"
+        },
+        {
+            "id":103,
+            "title":"tech trends 2026",
+            "content":"AI and cloud computing are shapping the future of technology.",
+            "created_at":"2024-01-09"
+        },
+        {
+            "id":104,
+            "title":"healthy food",
+            "content":"Eating food that made by no oil and noboil",
+            "created_at":"2024-02-21"
+        },
+         {
+            "id":105,
+            "title":"Best coding practice",
+            "content":"take notes and improve logical thinging",
+            "created_at":"2024-02-01"
+        },
+         {
+            "id":106,
+            "title":"trending songs in 2026",
+            "content":"sai abiyanger and aniruth hit song ",
+            "created_at":"2024-03-01"
+        }
+
+
+
+
+
+
+    ]
+}
