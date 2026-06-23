@@ -1,4 +1,7 @@
 import { useState } from "react";
+import Counter from "./Counter";
+
+// import { datacontext } from "./Home";
 
 function Login(){
 
@@ -26,10 +29,15 @@ function Login(){
     }
 
 
+
+    // const data=useContext(datacontext);
    
 
     return(
         <>
+
+        <Counter/>
+        {/* <h2>{data}</h2> */}
 
     <form className="my-5" style={{margin:"auto", width:"50%"}}>
             <div className="mb-3">

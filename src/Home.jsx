@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import {Link} from "react-router-dom";
 
+// import Login from "./Login";
 
+//assign the context variable
+// export const datacontext=createContext();
 
 
 
@@ -9,14 +12,14 @@ function Home(){
 
      const [posts,setposts]=useState(null);
 
-
+    //  const data="this is a data from home page";
 
      useEffect(()=>{
 
         const controller=new AbortController();
         const signal=controller.signal;
 
-    setTimeout(()=>{
+    
      fetch('http://localhost:3000/posts',{signal})
        .then(response=>{
         return response.json()
@@ -30,7 +33,7 @@ function Home(){
        .catch((err)=>{
         console.log(err);
        })
-   },5000);
+   
 
 
    //cleaning function
@@ -50,6 +53,14 @@ function Home(){
         <div className="container">
 
            <Link to='/login'>Login</Link>
+
+{/* 
+        <datacontext.provider value={data}>
+
+                  <Login/>
+            </datacontext.provider> */}
+
+
 
            <div className="row justify-content-center m-3">
                
